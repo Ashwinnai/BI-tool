@@ -77,3 +77,9 @@ if uploaded_file is not None:
 
 else:
     st.write("⬆️ Please upload a CSV or Excel file to explore the data.")
+# Footer
+st.markdown("""
+    <div style="position: fixed; bottom: 0; width: 100%; text-align: center; padding: 10px; background-color: #000000;">
+        <p>|Developed with ❤️ by Ashwin Nair | 
+    </div>
+    """, unsafe_allow_html=True)
